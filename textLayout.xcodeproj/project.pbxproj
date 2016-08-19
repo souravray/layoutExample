@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170024DD1D6716A200FA1E71 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170024DC1D6716A200FA1E71 /* TestView.m */; };
 		215D52431D6672F200AA0014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 215D52421D6672F200AA0014 /* main.m */; };
 		215D52461D6672F200AA0014 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 215D52451D6672F200AA0014 /* AppDelegate.m */; };
 		215D52491D6672F200AA0014 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215D52481D6672F200AA0014 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		170024DB1D6716A200FA1E71 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		170024DC1D6716A200FA1E71 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		215D523E1D6672F200AA0014 /* textLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		215D52421D6672F200AA0014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		215D52441D6672F200AA0014 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				215D524F1D6672F200AA0014 /* LaunchScreen.storyboard */,
 				215D52521D6672F200AA0014 /* Info.plist */,
 				215D52411D6672F200AA0014 /* Supporting Files */,
+				170024DB1D6716A200FA1E71 /* TestView.h */,
+				170024DC1D6716A200FA1E71 /* TestView.m */,
 			);
 			path = textLayout;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170024DD1D6716A200FA1E71 /* TestView.m in Sources */,
 				215D52491D6672F200AA0014 /* ViewController.m in Sources */,
 				215D52461D6672F200AA0014 /* AppDelegate.m in Sources */,
 				215D52431D6672F200AA0014 /* main.m in Sources */,
@@ -302,6 +308,7 @@
 				215D52571D6672F200AA0014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TestView.h
 //  textLayout
 //
-//  Created by Sourav Ray on 8/19/16.
+//  Created by  on 19/08/16.
 //  Copyright © 2016 Sourav Ray. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TestView : UIView
 
 @end
-
